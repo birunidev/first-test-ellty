@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #ffce22;
+  --primary-color-hover: #ffd84d;
+  --primary-color-active: #ffce22;
+  --label-color: #1f2128;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 22px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 0px 4px rgba(20, 20, 20, 0.1),
+    0px 8px 15px rgba(20, 20, 20, 0.12);
+  border-radius: 6px;
+  max-width: 370px;
+  width: 100%;
+}
+.form-container__footer {
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.checkbox-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+
+.checkbox-item-label {
+  font-size: 14px;
+  color: var(--label-color);
+  line-height: 1.5;
+}

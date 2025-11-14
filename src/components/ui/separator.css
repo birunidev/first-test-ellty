@@ -1,0 +1,10 @@
+.separator {
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.separator-line {
+  height: 1px;
+  background: #cdcdcd;
+  opacity: 0.7;
+}
